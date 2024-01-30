@@ -1,0 +1,41 @@
+:root{
+  --color-primary: #f9f9f9;
+}
+
+html{  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #040714;
+  color: var(--color-primary);
+  font-size: 1.4rem;
+
+  font-family: Avenir-Roman, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+@media screen and (min-width:768px) {
+
+  body{
+    font-size: 1.6rem;
+  }
+  
+}
+@media screen and (min-width:480px) {
+
+  body{
+    font-size: 1.5rem;
+  }
+  
+}
